@@ -25,9 +25,10 @@ Move Sweet.yaml into the folder:
 - For Linux: `mv ~/sweet-theme-warp-terminal/Sweet.yaml ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/Sweet/Sweet.yaml`
 - For MacOS: `mv ~/sweet-theme-warp-terminal/Sweet.yaml ~/.warp/themes/Sweet/Sweet.yaml`
 
+Make sure to enter the theme directory now.
+
 Now, run the generation script:
 
-- For Linux: `python3 ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/scripts/gen_theme_previews.py ${XDG_DATA_HOME:-$HOME/.local/share}/warp-terminal/themes/Sweet`
-- For MacOS: `python3 ~/.warp/themes/scripts/gen_theme_previews.py ~/.warp/themes/Sweet`
+- For Linux: `python3 ./scripts/gen_theme_previews.py Sweet`
 
 It should appear now!
