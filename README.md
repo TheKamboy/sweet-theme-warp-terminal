@@ -27,8 +27,6 @@ Move Sweet.yaml into the folder:
 
 Make sure to enter the theme directory now.
 
-Now, run the generation script:
-
-- For Linux: `python3 ./scripts/gen_theme_previews.py Sweet`
+Now, run the generation script: `python3 ./scripts/gen_theme_previews.py Sweet`
 
 It should appear now!
